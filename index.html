@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman-Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7e3634f9fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p>Personal Portfolio</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Marketing Professional</p>
+                <h1>Hi, I'm <span>Anurag</span> <br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------- About ----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/PIC.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there! I am a PGDM Marketing student with hands-on experience in FMCG sales, 
+                        retail outreach, client engagement, and business development. I am passionate 
+                        about sales and marketing, with strong communication, relationship management, and 
+                        analytical skills. I aim to create customer-focused solutions and contribute to 
+                        business growth through effective sales strategies.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Languages')">Languages</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tabs" id="education">
+                        <ul>
+                            <li><span>2025-2027</span><br>PGDM from ISM Patna</li>
+                            <li><span>2021-2024</span><br>B.A from Patliputra University</li>
+                            <li><span>2018-2021</span><br>12th from GDS Academy</li>
+                            <li><span>2017-2018</span><br>10th from GDS Academy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Hard Skills</span><br>Cold Calling & Outbound Prospecting, Lead Generation & 
+                                Quali cation, Consultative Selling, Client Relationship Management, Sales
+                                Pipeline Management, CRM Data Management & Reporting, Negotiation & Persuasive 
+                                Communication, Cross-Functional Collaboration,Target-Driven Sales Execution, 
+                                MS O ce (Word, Excel, PowerPoint), Google Sheets, Tally ERP, Market & Competitor 
+                                Research, Stakeholdermanagement, Dashboard handling, Operations management, Team 
+                                management</li>
+                            <li><span>Soft Skills</span><br>Quick Learner, Multitasker, Team Collaboration, Time 
+                                Management, Adaptability, Strong communication skills, Interpersonal skills,
+                                Leadership potential, Willingness to travel and relocat</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Languages">
+                        <ul>
+                            <li><span>Hindi</span><br>Native or Bilingual</li>
+                            <li><span>English</span><br>Professional</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------Portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/itc.jpeg">
+                    <div class="layer">
+                        <h3>Sales Intern</h3>
+                        <p>
+                        ITC Limited
+                        Jun 2026 - Jul 2026
+                        Proactively executed outbound prospecting and relationship-building across approximately 70 retail outlets, increasing product
+                        visibility and achieving a sell-through growth of [number]%.
+                        Conducted eld-based client engagements to assess retailer needs, communicate product o erings, and support order generation,
+                        leveraging consultative selling principles to achieve [number]% increase in orders within the FMCG distribution sector.
+                        Follow up consistently with retail partners to maintain healthy account relationships and improve order conversion and repeat
+                        business.
+                        Report daily and weekly sales activity, outlet coverage, and market feedback to territory supervisor, supporting accurate
+                        performance tracking similar to CRM-based pipeline reporting.
+                        Collaborate with the territory sales team to identify new outlet opportunities and support achievement of area sales targets.
+                        Gain rst-hand exposure to target-driven sales cycles, market trend observation, and competitor activity within the assigned
+                        territory </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Picture1.png">
+                    <div class="layer">
+                        <h3>Project</h3>
+                        <p>Economics and Sustainability in the Indian Context — Academic Research Project, PGDM 
+                        • Conducted analytical and market research to evaluate inclusive economic growth and 
+                        sustainable business practices in India, 
+                        strengthening data-driven decision-making and problem-solving skills applicable to 
+                        identifying business opportunities and market trends. 
+                        • Applied strategic and analytical thinking to translate research findings into 
+                        actionable insights — a skill set directly transferable 
+                        to identifying prospective customers and emerging market opportunities. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+    <!-- ------------Contact------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>anuragkasyap418@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+917970894055</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/anurag-kumar-bharti-891577323"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/anuragkr_25?utm_source=qr&igsh=bXAxNGwxNWhmbmxs"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/19NyikHdGP/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/anuragkr025"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://youtube.com/@anurag__kumar7056?si=jiply4eLSBuDWbQx"><i class="fa-brands fa-youtube"></i></i></a>
+                    </div> 
+                    <a href="images/Anurag resumeee.pdf" download class="btn btn2">Download CV</a><br>
+                    <!-- <a href="https://drive.google.com/drive/folders/1nesYj8m4Y8cDJWcYhBldRrycT_3ydlIb" download class="btn btn2">Download Grade Card</a>     -->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Hello! <br>This is Anurag nice to see you here.</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Made with &hearts; by anurag.</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tabs");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tabs");
+        }
+
+        var sidemenu =document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-150px";
+        }
+
+        
+    </script>
+    <script>
+       
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbywJib29ds0bVme2dyfQutEfiDwK5rm87OrhQsOSssCjxtg3QHBcX_byxBKHbvWN6rG/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+
+    </script>
+</body>
+</html>
